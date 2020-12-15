@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard Feynman Tribute</title>
+    <style>
+        html {
+            font-size: 10px;
+        }
+        @font-face {
+            font-family: 'D-Din-Bold';
+            src: url(https://www.datto.com/fonts/DattoDIN-Bold.woff2) format("woff2");
+            font-style: normal;
+            font-display: block;
+        }
+        @font-face {
+            font-family: 'D-Din-Regular';
+            src: url(https://www.datto.com/fonts/DattoDIN-Regular.woff2) format("woff2");
+            font-style: normal;
+            font-display: block;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'D-Din-Regular', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+            font-size: 1.6rem;
+            line-height: 1.0;
+            text-align: center;
+            color: #333;
+            margin: 0px;
+        }
+        #title {
+            font-family: 'D-Din-Bold';
+            font-weight: 100;
+        }
+        .caption {
+            margin-top: 0;
+            margin-bottom: 0px;
+            font-size: 2.5rem;
+            padding-bottom: 400px;
+            background-color: #fcee0a;
+        }
+        h1 {
+            font-size: 5rem;
+            margin-bottom: 0;
+            margin-top: 0px;
+            padding-top: 290px;
+            background-color: #fcee0a;
+        }
+        @media (max-width: 460px) {
+            h1 {
+            font-size: 3.5rem;
+            line-height: 1.2;
+            padding-top: 260px;
+            }
+            .caption {
+                padding-bottom: 370px;
+            }
+        }
+        h2 {
+            font-size: 3.5rem;
+        }
+        .bold-text {
+            font-family: 'D-Din-Bold';
+        }
+        a {
+            color: #7c28f4;
+            
+        }
+        a:visited {
+            color: #7c28f4;
+        }
+        #main {
+            margin: 0px;
+            padding: 0px;
+            border-radius: 0px;
+            background: #eee;
+        }
+        @media (max-width: 460px) {
+            #main {
+                margin: 0;
+            }
+        }
+        img {
+            max-width: 100%;
+            display: block;
+            height: auto;
+            margin: 0 auto;
+        }
+        #img-div {
+            background: white;
+            padding: 0px;
+            margin: 0;
+        }
+        #img-caption {
+            padding: 5px 0 5px 0;
+            background-color: #3dcdfb;
+        }
+        @media (max-width: 460px) {
+            #img-caption {
+                font-size: 1.4rem;
+            }
+        }
+        #tribute-info {
+            background-color: #3dcdfb;
+            font-size: 1.1em;
+        }
+        #headline {
+            margin-top: 0px;
+            padding-top: 120px;
+            text-align: center;
+            background-color: #3dcdfb;
+            font-weight: 100;
+            font-family: 'D-Din-Bold';
+            font-size: 35px;
+        }
+        ul {
+            max-width: 550px;
+            margin: 0 auto 50px auto;
+            text-align: left;
+            line-height: 1.6;
+            padding-bottom: 40px;
+        }
+        li {
+            margin: 16px 0px;
+            margin-right: 10px;
+        }
+        blockquote {
+            background-color: #7c28f4;
+            color: #f1f1f1;
+            font-size: 1.3em;
+            font-style: bold;
+            margin: 0;
+            padding-top: 300px;
+            padding-bottom: 390px;
+            text-align: center;
+        }
+        .quote {
+            font-size: 1.6em;
+            margin-bottom: 16px;
+        }
+        @media (max-width: 460px) {
+            .quote {
+            margin-bottom: 30px;
+            }
+            .footer {
+                padding-left: 30px;
+                padding-right: 30px;
+                font-size: 1.2em;
+            }
+        }
+        .footer {
+            background-color: #e0e0e0;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <main id="main">
+        <h1 id="title">Richard Feynman</h1>
+        <p class="caption">The Great Explainer</p>
+        <figure id="img-div">
+            <img
+                id="image"
+                src="https://cds.cern.ch/record/1757910/files/65-12-163.jpg"
+                alt="Richard Feynman giving lecture"
+            />
+            <figcaption id="img-caption">
+                Richard Feynman giving a lecture at CERN, Geneva.<br>
+                <a style="color: #333; font-size: 0.7em;"href="https://cds.cern.ch/record/1757910">© 2014-2016 CERN</a>
+            </figcaption>
+        </figure>
+        <section id="tribute-info">
+            <h3 id="headline">RICHARD FEYNMAN'S LIFE</h3>
+            <ul>
+                <li>
+                    <span class="bold-text">1918</span> Born in New York, U.S. <!-- The young Feynman was heavily influenced by his father and he gained the sense of humor 
+                    that he had throughout his life from his mother. -->
+                </li>
+                <li>
+                    <span class="bold-text">1933</span> Taught himself trigonometry, advanced algebra, 
+                    infinite series, analytic geometry, and both differential and integral calculus, while he was in high school at 15 years old.
+                </li>
+                <li>
+                    <span class="bold-text">1939</span> Recieved bachelor's degree from MIT. He attained a perfect score on the graduate school entrance exams to
+                     Princeton University in physics—an unprecedented feat—and an outstanding score in mathematics, but did poorly on the history and English portions. 
+                </li>
+                <li>
+                    <span class="bold-text">1941</span> Involved in the Manhattan Project at Princeton and later at Los Alamos. 
+                </li>
+                <li>
+                    <span class="bold-text">1942</span> Recieved a Ph.D. from Princeton University.
+                </li>
+                <li>
+                    <span class="bold-text">1944</span> Appointed an assistant professor at Cornell University.
+                </li>
+                <li>
+                    <span class="bold-text">1948</span> Introduced the Feynman diagram.
+                </li>
+                <li>
+                    <span class="bold-text">1950</span> Left Cornell University and went to Caltech.
+                </li>
+                <li>
+                    <span class="bold-text">1954</span> Won the Albert Einstein Award, which was worth $15,000 and came with a gold medal.
+                </li>
+                <li>
+                    <span class="bold-text">1965</span> Received the Nobel Prize in Physics for contributions to the development of quantum electrodynamics.
+                </li>
+                <li>
+                    <span class="bold-text">1986</span> Joined the Roger Commission that investigated the Space Shuttle Challenger disaster.
+                </li>
+                <li>
+                    <span class="bold-text">1988</span> Dies at the age of 69.
+                </li>
+            </ul>
+            <blockquote cite="https://www.gatesnotes.com/Education/The-Best-Teacher-I-Never-Had">
+                <p class="quote">
+                    "The best teacher I never had."  
+                </p>
+                <cite>-Bill Gates</cite>
+            </blockquote>
+            <h3 class="footer">Know more about Feynman on his 
+            <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Richard_Feynman">Wikipedia entry</a>!
+            </h3>
+        </section>
+        <p style="background-color: #e0e0e0; margin-top: 0; margin-bottom: 0px; padding-bottom: 7px; font-size: 0.8em;">Made with ❤️ by 
+        <a href="https://www.instagram.com/rizky.1710/" style="color: #333;">Rizky Ramadhan</a></p>
+    </main>
+</body>
+</html>
